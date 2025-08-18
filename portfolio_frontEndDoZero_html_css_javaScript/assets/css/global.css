@@ -9,7 +9,7 @@
     list-style: none;
 }
 
-:root {
+:root, :root[data-theme="dark"] {
     --primary-color: #f5f9f8;
 
     --primary-bg-color: #252330;
@@ -20,4 +20,21 @@
     --text-color: #f5f9f8;
     --link-color: #595168;
     --icon-color: #a1a2ab;
+}
+
+:root[data-theme="light"] {
+    --primary-color: #252330;
+
+    --primary-bg-color: #f5f9f8;
+    --secondary-bg-color: #a1a2ab;
+    --border-color: #575669;
+
+    --title-color: #252330;
+    --text-color: #252330;
+    --link-color: #252330;
+    --icon-color: #595168;
+}
+
+html[data-theme="light"] {
+    filter: invert(1); /*invertendo as cores*/
 }

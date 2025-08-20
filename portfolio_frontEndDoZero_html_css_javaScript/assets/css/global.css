@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 * {
     margin: 0;
@@ -7,34 +7,37 @@
     box-sizing: border-box;
     vertical-align: baseline;
     list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-bg-color) transparent;
 }
 
-:root, :root[data-theme="dark"] {
-    --primary-color: #f5f9f8;
+:root,
+:root[data-theme='dark'] {
+    --primary-color: #ffedc8;
 
-    --primary-bg-color: #252330;
-    --secondary-bg-color: #3b3a4a;
-    --border-color: #575669;
+    --primary-bg-color: #2c263f;
+    --secondary-bg-color: #595082;
+    --border-color: #f8c662;
 
-    --title-color: #595168;
-    --text-color: #f5f9f8;
-    --link-color: #595168;
-    --icon-color: #a1a2ab;
+    --title-color: #a7ffbd;
+    --text-color: #ffedc8;
+    --link-color: #595082;
+    --icon-color: #f8c662;
 }
 
-:root[data-theme="light"] {
-    --primary-color: #252330;
+:root[data-theme='light'] {
+    --primary-color: #2c263f;
 
-    --primary-bg-color: #f5f9f8;
-    --secondary-bg-color: #a1a2ab;
-    --border-color: #575669;
+    --primary-bg-color: #faf8ff;
+    --secondary-bg-color: #dbd3ff;
+    --border-color: #213722;
 
-    --title-color: #252330;
-    --text-color: #252330;
-    --link-color: #252330;
-    --icon-color: #595168;
+    --title-color: #2c263f;
+    --text-color: #2c263f;
+    --link-color: #213722;
+    --icon-color: #d68f00;
 }
 
-html[data-theme="light"] {
-    filter: invert(1); /*invertendo as cores*/
+html[data-theme='dark'] .technologies__logo {
+    filter: invert(80%);
 }

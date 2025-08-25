@@ -1,0 +1,73 @@
+{
+  "name": "Jordana Grützmann Kicköfel",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "job": "",
+  "location": "Pelotas/RS",
+  "phone": "(53) 98462-1020",
+  "email": "jordana.grutzmann@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+      },
+      {
+        "name": "Mongodb",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Eficácia",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Francês (iniciante)",
+    "Libras (iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "Projeto Recriando uma Pokedex",
+      "url": "",
+      "github": true
+    },
+    {
+      "name": "Portfólio Front-end",
+      "url": "",
+      "github": true
+    },
+    {
+      "name": "Projeto Game temático Yu-Gi-Oh!",
+      "url": "",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Tecnologia",
+      "period": "-",
+      "description": "Ainda não possuo experiência na área de tecnologia, mas possuo outras experiências que contribuíram para meu crescimento profissional."
+    }
+  ]
+}

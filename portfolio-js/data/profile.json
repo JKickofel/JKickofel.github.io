@@ -1,7 +1,7 @@
 {
     "name": "Jordana Grützmann Kicköfel",
     "photo": "https://avatars.githubusercontent.com/JKickofel",
-    "job": "",
+    "job": "Desenvolvedora Front-end",
     "location": "Pelotas/RS",
     "phone": "(53) 98462-1020",
     "email": "jordana.grutzmann@gmail.com",
@@ -31,16 +31,16 @@
         "softSkills": [
             "Liderança",
             "Respeito",
-            "Flexibilidade",
-            "Eficácia",
-            "Organização"
+            "Organização",
+            "Persistência",
+            "Eficácia"
         ]
     },
     "languages": [
         "Português BR",
         "Inglês (intermediário)",
         "Francês (iniciante)",
-        "Libras (iniciante)"
+        "Libras (básico)"
     ],
     "portfolio": [
         {
@@ -57,13 +57,18 @@
             "name": "Projeto Game temático Yu-Gi-Oh!",
             "url": "https://github.com/JKickofel/desafios_dio/tree/main/projeto-yu-gi-oh-js-css-html",
             "github": true
+        },
+        {
+            "name": "Desafio Site do Discord",
+            "url": "https://github.com/JKickofel/desafios_dio/tree/main/trilha_css_desafio_03_layoutResponsivo_Discord",
+            "github": true
         }
     ],
     "professionalExperience": [
         {
             "name": "Tecnologia",
             "period": "-",
-            "description": "Ainda não possuo experiência na área de tecnologia, mas possuo outras experiências que contribuíram para meu crescimento profissional."
+            "description": "-"
         }
     ]
 }
